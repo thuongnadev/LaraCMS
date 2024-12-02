@@ -1,0 +1,17 @@
+<?php
+
+namespace {{ namespace }};
+
+use Filament\Tables;
+
+class {{ class }}
+{
+    public static function bulkActions(): array
+    {
+        return [
+            Tables\Actions\BulkActionGroup::make([
+                Tables\Actions\DeleteBulkAction::make()
+            ]),
+        ];
+    }
+}

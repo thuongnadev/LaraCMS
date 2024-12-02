@@ -1,0 +1,14 @@
+@media (max-width: 640px) {
+    .banner-title {
+        font-size: clamp(1rem, 4vw, 1.25rem);
+    }
+
+    .banner-description {
+        font-size: clamp(0.75rem, 3vw, 1rem);
+    }
+
+    .banner-cta {
+        font-size: clamp(0.75rem, 2vw, 0.875rem);
+        padding: 0.5rem 1rem;
+    }
+}

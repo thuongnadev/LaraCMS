@@ -1,0 +1,11 @@
+{
+    "name": "ProductVps",
+    "alias": "productvps",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ProductVps\\Providers\\ProductVpsServiceProvider"
+    ],
+    "files": []
+}

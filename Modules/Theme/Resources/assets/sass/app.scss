@@ -1,0 +1,32 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@import 'variables';
+@import 'post-content';
+@import 'banner';
+@import 'mixins';
+
+.custom-arrow {
+    transform: rotateX(180deg);
+}
+
+.product-card:hover img {
+    transform: translateY(calc(-100% + 450px));
+}
+
+.product-card:hover .overlay {
+    opacity: 1;
+}
+.button-main {
+    @include styleButton;
+}
+
+.button-close {
+    @include styleButtonClose;
+}
+
+.swiper-wrapper {
+    height: auto !important;
+}

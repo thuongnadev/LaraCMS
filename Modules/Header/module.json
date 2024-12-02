@@ -1,0 +1,11 @@
+{
+    "name": "Header",
+    "alias": "header",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Header\\Providers\\HeaderServiceProvider"
+    ],
+    "files": []
+}

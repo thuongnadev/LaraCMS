@@ -1,0 +1,11 @@
+{
+    "name": "Footer",
+    "alias": "footer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Footer\\Providers\\FooterServiceProvider"
+    ],
+    "files": []
+}

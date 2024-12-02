@@ -1,0 +1,11 @@
+{
+    "name": "PageMain",
+    "alias": "pagemain",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PageMain\\Providers\\PageMainServiceProvider"
+    ],
+    "files": []
+}

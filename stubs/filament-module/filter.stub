@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use Filament\Tables\Filters\SelectFilter;
+
+class {{ class }}
+{
+    public static function filter(): array
+    {
+        return [];
+    }
+}

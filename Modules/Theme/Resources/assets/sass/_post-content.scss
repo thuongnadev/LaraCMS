@@ -1,0 +1,122 @@
+.toc-wrap {
+    background-color: #f9fafb;
+    
+    &::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #cccccc;
+        -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    }
+
+    .toc-title {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    #toc {
+        max-height: calc(100vh - 150px);
+        padding: 1rem;
+        overflow-y: scroll;
+
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .toc-active {
+            font-weight: bold;
+            color: #2563eb;
+        }
+
+        .toc-item {
+            padding: 0.1em 0;
+
+            a {
+                padding: 0.25em 0.5em;
+            }
+        }
+
+        .toc-h2 {
+            margin-left: 0.5em
+        }
+
+        .toc-h3 {
+            margin-left: 1.75em
+        }
+
+        .toc-h4 {
+            margin-left: 3em
+        }
+
+        .toc-h5 {
+            margin-left: 4.25em
+        }
+
+        .toc-h6 {
+            margin-left: 5.5em
+        }
+    }
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    line-height: 1.2;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.post-content h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.post-content h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.post-content h3 {
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+.post-content h4 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.post-content h5 {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.post-content h6 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.post-content img {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.post-content figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+.post-content.prose.max-w-none {
+    line-height: 2rem;
+}

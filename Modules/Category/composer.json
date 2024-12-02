@@ -1,0 +1,26 @@
+{
+    "name": "nwidart/category",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Category\\": ""
+        }
+    },
+    "require": {
+        "codewithdennis/filament-select-tree": "^3.1"
+    }
+}
